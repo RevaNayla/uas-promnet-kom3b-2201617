@@ -1,0 +1,107 @@
+.booklist-container table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.h22 {
+    color: #c9b9b9ec;
+    background-color: rgba(199, 86, 20, 0.452);
+}
+
+.booklist-container th, .booklist-container td {
+    border: 1px solid #835134;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    background-color: #915e41af;
+}
+
+.booklist-container th {
+    background-color: #915e41;
+    text-align: center;
+}
+
+.booklist-btn {
+    margin-top: 10px;
+}
+
+.booklist-btn a,
+.booklist-btn button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.booklist-btn a.booklist-create, .booklist-btn button.booklist-create {
+    background-color: #8b5535;
+    color: white;
+    width: 65px;
+}
+
+.booklist-btn a.booklist-detail, .booklist-btn button.booklist-detail {
+    background-color: #153049;
+    color: white;
+    width: 65px;
+}
+
+.booklist-btn button.booklist-listbutton {
+    background-color: #9e2d25;
+    color: white;
+    width: 65px;
+}
+
+.booklist-btn button.booklist-listbutton-table {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.booklist-btn button.booklist-listbutton-table:hover {
+    opacity: 0.8;
+}
+
+
+
+.baba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tambahdata {
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #7e4e2e;
+    color: white;
+    padding: 10px 15px;
+    border: 8px;
+    border-radius: 4px;
+    margin-right: 100px;
+    cursor: pointer;
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 800px;
+    margin-bottom: 1rem;
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  .search-container input {
+    background-color: #6b5548ce;
+    padding: 0.5rem;
+    border: 1px solid #d49d7d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%; /* Adjust the width as needed */
+  }

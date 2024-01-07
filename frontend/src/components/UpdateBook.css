@@ -1,0 +1,95 @@
+.containers {
+    max-width: 670px;
+    margin: 20px auto;
+    background-color: #915e41af;
+    border: 1px solid ;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  h2 {
+    color: #c9b9b9ec;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button,
+  button.cancel {
+    background-color: #246d27;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: calc(50% - 2.5px);
+  }
+  
+  button.cancel {
+
+    background-color: #9e2d25;
+    margin-top: 5px;
+  }
+  
+  button:hover,
+  button.cancel:hover {
+    opacity: 0.8;
+  }
+
+  /* ... CSS sebelumnya ... */
+
+.success-message,
+.error-message {
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  color: #3c763d;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.error-message {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+
+/* Styles for React Toastify */
+.Toastify__toast-container {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #5c3e32;
+    color: #058a05;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #f44336;
+  }
+  
+  

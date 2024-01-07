@@ -1,0 +1,74 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./components/bg22.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh; /* Set the minimum height to at least 100% of the viewport height */
+}
+
+.App {
+  text-align: center;
+  flex: 1;
+}
+
+.App-header {
+  
+  background-color: #80483b;
+  padding: 5px;
+  color: rgb(172, 148, 135);
+}
+
+.App-header p {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.671);
+  margin-left: 50px;
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(179, 152, 131);
+}
+
+main {
+  padding: 20px;
+}
+
+.App-footer {
+  position: fixed;
+  background-color: #80483b;
+  padding: 5px;
+  color: rgb(172, 148, 135);
+  bottom: 0;
+  width: 100%;
+}
+
+.ftr {
+  text-align: center;
+}
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navnav {
+  display: flex;
+  align-items: center;
+}
+
+.navnav .home-link {
+  margin-left: 900px;
+  text-decoration: none;
+  color: rgb(179, 152, 131);
+}
